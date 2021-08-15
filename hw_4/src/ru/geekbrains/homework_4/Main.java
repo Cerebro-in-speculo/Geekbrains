@@ -4,7 +4,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
-    public static int SIZE = 5;
+    public static int SIZE = 3;
     public static int DOTS_TO_WIN = 3;
     public static final char DOT_EMPTY = '•';
     public static final char DOT_X = 'X';
