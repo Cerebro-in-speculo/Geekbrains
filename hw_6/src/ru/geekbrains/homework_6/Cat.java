@@ -1,10 +1,9 @@
 package ru.geekbrains.homework_6;
 
 public class Cat extends Animal {
-    public static int COUNT_CAT=0;
-    public Cat(){
-        COUNT_CAT++;
-    }
+
+    public static int COUNT_CAT = 0;
+    public Cat() {COUNT_CAT++;}
 
     @Override
     public void running(int obstacleLength) {
@@ -14,6 +13,7 @@ public class Cat extends Animal {
             System.out.println("Кот пробежал " + obstacleLength + " м.");
         }
     }
+
     @Override
     public void floating(int obstacleLength) {
         System.out.println("Кот не умеет плавать!");

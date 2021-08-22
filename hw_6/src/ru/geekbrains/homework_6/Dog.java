@@ -6,6 +6,7 @@ public class Dog extends Animal {
     public Dog(){
         COUNT_DOG++;
     }
+
     @Override
     public void running(int obstacleLength) {
         if (obstacleLength > 500) {
