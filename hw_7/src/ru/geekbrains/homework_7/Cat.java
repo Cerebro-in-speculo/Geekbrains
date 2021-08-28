@@ -27,7 +27,7 @@ public class Cat {
             p.decreaseFood(p.getFood());
             */
         } else {
-            if (!satiety) {//Если добавили еды и кот не смог поесть ранее, он начинает есть!
+            if (!satiety) {//Если добавили еды в тарелку и кот не смог поесть ранее, он начинает есть!
                 p.decreaseFood(appetite);
                 satiety = true;
             }
