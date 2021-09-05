@@ -2,17 +2,17 @@ package ru.geekbrains.homework_8;
 
 public class Main {
     public interface Discipline {
-        public void running();
+        void running();
 
-        public void jump();
+        void jump();
 
-        public int getMax_player_length();
+        int getMax_player_length();
 
-        public int getMax_player_height();
+        int getMax_player_height();
 
-        public void setDo(boolean isDo);
+        void setDo(boolean isDo);
 
-        public boolean getDo();
+        boolean getDo();
     }
 
     public interface Competitions {
