@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         String[][] data = {
                 {"1", "1", "1", "1"},
-                {"1", "1", "1", "1"},
+                {"1", "кк", "1", "1"},
                 {"1", "1", "1", "1"},
                 {"1", "1", "1", "1"},
         };
@@ -13,8 +13,8 @@ public class Main {
             System.out.println(myData(data));
         } catch (MyArraySizeException e) {
             System.out.println(e.getMessage());
-        } catch (NumberFormatException e) {
-            throw new MyArrayDataException("Матрица содержит недопустимые символы");
+        } catch (RuntimeException e) {
+            throw new MyArrayDataException("Матрица содержит недопустимые символы",e);
         }
     }
 

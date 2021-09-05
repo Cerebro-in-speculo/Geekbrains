@@ -1,8 +1,8 @@
 package ru.geekbrains.homework_9;
 
-public class MyArrayDataException extends NumberFormatException {
+public class MyArrayDataException extends RuntimeException {
 
-    public MyArrayDataException(String message){
-        super(message);
+    public MyArrayDataException(String message, Throwable cause){
+        super(message, cause);
     }
 }
