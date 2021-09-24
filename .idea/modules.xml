@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Geekbrains.iml" filepath="$PROJECT_DIR$/.idea/Geekbrains.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hw_1/hw_1.iml" filepath="$PROJECT_DIR$/hw_1/hw_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hw_2/hw_2.iml" filepath="$PROJECT_DIR$/hw_2/hw_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hw_3/hw_3.iml" filepath="$PROJECT_DIR$/hw_3/hw_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hw_4/hw_4.iml" filepath="$PROJECT_DIR$/hw_4/hw_4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hw_5/hw_5.iml" filepath="$PROJECT_DIR$/hw_5/hw_5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hw_6/hw_6.iml" filepath="$PROJECT_DIR$/hw_6/hw_6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hw_7/hw_7.iml" filepath="$PROJECT_DIR$/hw_7/hw_7.iml" />
+    </modules>
+  </component>
+</project>
