@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="text"
-        android:text="text" />
+        android:text="text_" />
 
     <EditText
         android:layout_width="wrap_content"
